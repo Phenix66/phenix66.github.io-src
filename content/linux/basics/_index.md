@@ -82,8 +82,8 @@ https://youngstone89.medium.com/unix-introduction-bash-startup-files-loading-ord
 
 https://access.redhat.com/solutions/452073
 
-![Shell profile related files](github.com/phenix66/phenix66.github.io-src/images/shell_profiles.png?width=100%&height=100%)
+![Shell profile related files](/shell_profiles.png?width=100%&height=100%)
 
 ## Login
 
-![Image showing the Linux login flow](github.com/phenix66/phenix66.github.io-src/images/console_login_flow.png?width=100%&height=100%)
+![Image showing the Linux login flow](/console_login_flow.png?width=100%&height=100%)
