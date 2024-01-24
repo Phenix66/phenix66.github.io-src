@@ -1,7 +1,6 @@
 +++
-date = 2024-01-22T20:17:30-05:00
 title = "Basics"
-weight = 2
+weight = 1
 +++
 
 ## Boot Process
@@ -43,7 +42,7 @@ weight = 2
     2. upstart
         1. Can run steps in parallel
         2. Init reads .conf files in /etc/init
-        3. One of those scripts runs /etc/rc.d/rc script for desired runlevel. This provides the SysV backwards compatiability
+        3. One of those scripts runs /etc/rc.d/rc script for desired runlevel. This provides the SysV backwards compatibility
     3. systemd
         1. Can run steps in parallel
         2. /usr/lib/systemd/systemd (PID 1) # May also be /sbin/init (symbolic link to systemd)
@@ -82,8 +81,20 @@ https://youngstone89.medium.com/unix-introduction-bash-startup-files-loading-ord
 
 https://access.redhat.com/solutions/452073
 
-![Shell profile related files](/shell_profiles.png?width=100%&height=100%)
+![Shell profile related files](/shell_profiles.png)
 
 ## Login
 
-![Image showing the Linux login flow](/console_login_flow.png?width=100%&height=100%)
+![Image showing the Linux login flow](/console_login_flow.png)
+
+## Directories
+
+![Image detailing important directories in Linux](/important_dirs.png)
+
+## Filesystem Links
+
+![Image depicting differences between hard and soft links](/hard_and_soft_links.png)
+
+## IPTables
+
+![Flowchart depicting the packet process flow of iptables](/iptables_flowchart.jpg)
