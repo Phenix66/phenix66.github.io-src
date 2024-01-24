@@ -19,7 +19,7 @@ weight = 5
 ### Applications
 
 ||fpipe|socat|portproxy|iptables|
-|----|----|----|----|----|
+|:----|:----:|:----:|:----:|:----:|
 |Redirect TCP|X|X|X|X|
 |Redirect UDP||X||X|
 |Convert TCP <> UDP||X|||
