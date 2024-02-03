@@ -81,20 +81,20 @@ https://youngstone89.medium.com/unix-introduction-bash-startup-files-loading-ord
 
 https://access.redhat.com/solutions/452073
 
-![Shell profile related files](/shell_profiles.png)
+![Shell profile related files](/images/shell_profiles.png)
 
 ## Login
 
-![Image showing the Linux login flow](/console_login_flow.png)
+![Image showing the Linux login flow](/images/console_login_flow.png)
 
 ## Directories
 
-![Image detailing important directories in Linux](/important_dirs.png)
+![Image detailing important directories in Linux](/images/important_dirs.png)
 
 ## Filesystem Links
 
-![Image depicting differences between hard and soft links](/hard_and_soft_links.png)
+![Image depicting differences between hard and soft links](/images/hard_and_soft_links.png)
 
 ## IPTables
 
-![Flowchart depicting the packet process flow of iptables](/iptables_flowchart.jpg)
+![Flowchart depicting the packet process flow of iptables](/images/iptables_flowchart.jpg)

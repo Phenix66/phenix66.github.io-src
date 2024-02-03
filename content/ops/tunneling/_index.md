@@ -5,7 +5,7 @@ weight = 4
 
 ## SSH Tunnels
 
-![Image depicting SSH tunnels](/tunnel.png)
+![Image depicting SSH tunnels](/images/tunnel.png)
 
 * Disabling SSH DNS lookup on redirector boxes can greatly speed up the response time and speed through the chain
 
