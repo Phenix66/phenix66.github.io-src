@@ -18,6 +18,7 @@ Internet Explorer
 Edge
 
 Mozilla Firefox:
+
 1) Navigate to "about:config"
 2) Set "network.IDN_show_punycode" to "true"
 
@@ -41,15 +42,18 @@ Doesn't seem to make a difference in my experience. Pastejacking relies on "Clip
 
 
 Firefox:
+
 1) Navigate to "about:config"
 2) Set "dom.event.clipboardevents.enabled" to "false"
 
 IE:
--Tested with IE 11.1066.14393.0 on Windows 10 and it inherently blocked the attempt. Way to go MS for actually getting something right!
+
+* Tested with IE 11.1066.14393.0 on Windows 10 and it inherently blocked the attempt. Way to go MS for actually getting something right!
 
 Chrome:
--Requires extension, no known method of disabling clipboard events.
--Right-to-Copy extension allows you copy ONLY what is selected, but requires you to right-click -> Copy instead of using Ctrl+C shortcut
+
+* Requires extension, no known method of disabling clipboard events.
+* Right-to-Copy extension allows you copy ONLY what is selected, but requires you to right-click -> Copy instead of using Ctrl+C shortcut
 
 
 ## WebRTC Leaks
@@ -57,6 +61,7 @@ Chrome:
 What it is: WebRTC can leak your true IP address even when utilizing a VPN
 
 Firefox:
+
 1) Navigate to "about:config"
 2) Set "media.peerconnection.enabled" to "false"
 

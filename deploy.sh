@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 rm -rf public/*
-hugo
+hugo --noChmod
 cd public
 git add -A
 git commit -m "GitHub Pages Build: $(date +%F)"
